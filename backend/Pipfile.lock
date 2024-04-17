@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "1316580495a43306494f573f10178bea778a52e89b0a0601a7451042b5563429"
+            "sha256": "0aa9dc28ffec62531723940fcd61c36e1beb78c14265c21c3cb25929831352a0"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -169,6 +169,10 @@
             ],
             "markers": "python_version >= '3.7'",
             "version": "==5.3.3"
+        },
+        "cb-django-push-notifications": {
+            "editable": true,
+            "path": "./modules/django_push_notifications"
         },
         "cb-django-two-factor-authentication": {
             "editable": true,
@@ -732,7 +736,6 @@
             "version": "==2.7.0"
         },
         "googleapis-common-protos": {
-            "extras": [],
             "hashes": [
                 "sha256:17ad01b11d5f1d0171c06d3ba5c04c54474e883b66b949722b4938ee2694ef4e",
                 "sha256:ae45f75702f7c08b541f750854a678bd8f534a1a6bace6afe975f1d0a82d6632"
